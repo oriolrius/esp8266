@@ -1,0 +1,30 @@
+{
+  "name": "mydevice-id temperature sensor",
+  "device_id": "mydevice-id",
+  "wifi": {
+    "ssid": "ymbihq-exp",
+    "password": "justdemo"
+  },
+  "mqtt": {
+    "host": "10.2.10.2",
+    "port": 1883,
+    "base_topic": "ymbihq/",
+    "auth": false,
+    "username": "user",
+    "password": "pass",
+	"ssl": false,
+	"fingerprint": "CF 05 98 89 CA FF 8E D8 5E 5C E0 C2 E4 F7 E6 C3 C7 50 DD 5C"
+  },
+  "ota": {
+    "enabled": true,
+    "host": "10.2.10.2",
+    "port": 8080,
+    "mdns": "ota",
+    "path": "/ota",
+    "ssl": false,
+    "fingerprint": "CF 05 98 89 CA FF 8E D8 5E 5C E0 C2 E4 F7 E6 C3 C7 50 DD 5C"
+  },
+  "settings": {
+    "percentage": 55
+  }
+}
